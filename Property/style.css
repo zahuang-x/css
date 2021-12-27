@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif', 'poppins';
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background:#dae4ff;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+nav{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+}
+.logo img{
+    width: 170px;
+    cursor: pointer;
+}
+button{
+    padding: 15px 40px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.menu-icon{
+    width: 50px;
+    margin-left: 30px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.col-1, .col-2{
+    flex-basis: 50%;
+    overflow: hidden;
+}
+.col-2 img{
+    width: 100%;
+    min-height: 100%;
+}
+.col-1{
+    padding: 8% 5%;
+    position: relative;
+}
+.col-1 h1{
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    color: #333;
+}
+.col-1 p{
+    color: #777;
+    line-height: 22px;
+    margin: 15px 0 30px;
+}
+ul{
+    position: absolute;
+    bottom: 30px;
+}
+ul li{
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    background: #bfbfbf;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-flex;
+    cursor: pointer;
+}
+ul .active{
+    background: #333;
+}
+.zoom{
+    animation: zoomout 0.5s linear 1;
+}
+@keyframes zoomout{
+    0%{
+        transform: scale(1.2);
+    }
+   100%{
+        transform: scale(1);
+    }
+}
