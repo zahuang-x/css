@@ -44,6 +44,11 @@
                 play.src = "sound/play.png"
             }
         }
+        //音乐停止后切换icon
+        mySong.loop = false;
+        mySong.addEventListener('ended',function(){
+            play.src = "sound/play.png"
+        },false);
     </script>
 </body>
 </html>
