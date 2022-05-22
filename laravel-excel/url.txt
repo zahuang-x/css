@@ -1,0 +1,6 @@
+1.Drag and Drop Multiple File upload in Laravel 7 using Dropzone.js/
+https://www.webslesson.info/2020/04/drag-and-drop-multiple-file-upload-in-laravel-7-using-dropzonejs.html
+
+
+2.Laravel 9 Dropzone Image Upload Example Step By Step/
+https://appdividend.com/2022/02/28/laravel-dropzone-image-upload/
